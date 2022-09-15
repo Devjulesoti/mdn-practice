@@ -1,0 +1,261 @@
+.uber-button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-left: 20px;
+    display: block;
+}
+.apply-button{
+    margin-top: 20px;
+    background-color: rgb(10, 102, 194);
+    color: white;
+   font-weight: bold;
+    font-size: medium;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 20px;
+    border-radius: 25px;
+    cursor: pointer;
+
+}
+.save{
+background-color: white;
+color: rgb(10, 102, 194);
+font-weight: bold;
+font-size: 17px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 20px;
+padding-right: 20px;
+margin-left: 10px;
+border-radius: 20px;
+border-width: 1px;
+cursor: pointer;
+}
+
+.save:hover{
+    color: green;
+    background-color: aquamarine;
+}
+.apply-button:active{
+color: brown;
+background-color: azure;
+}
+.amazon{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.amazon-link{
+    color: darkgreen;
+    font-size: 18px;
+}
+.amount{
+    font-weight: bold;
+    color: rgb(31, 182, 31);
+    font-size: 20px;
+}
+.add{
+    background-color: yellow;
+    color: black;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+    border-radius: 15px;
+    font-weight: 600;
+}
+
+.buy{
+    background-color: rgb(255, 166, 0);
+    color: black;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+    border-radius: 15px;
+    font-weight: 600;
+}
+.amazon-link:hover{
+    color: orange;
+}
+
+.add:hover{
+    background-color: rgb(224, 192, 7);
+    transition: background-color, 0.15s;
+}
+.add:active{
+    opacity: 0.7;
+    
+}
+.interface{
+    background-color: rgb(197, 212, 212);
+    margin-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    border: none;
+    box-shadow: 6px 6px 9px rgba(0, 0, 0, 0.15);
+    max-width: 90%;
+}
+
+.frontend{
+    background-color: white;
+    margin-left: 20px;
+    text-align: center;
+    width: 180px;
+    padding: 10px;
+    border-radius: 8px;
+    
+    
+    
+
+}
+.par1 {
+    font-family: 'roboto',sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+
+}
+.par2{
+    color: rgb(117, 112, 112);
+    font-size: 11.5px;
+    font-weight: 500;
+    line-height: 15px;
+
+}
+.qr-image{
+    object-fit: cover;
+    object-position: center;
+    width: 180px;
+    border-radius: 6px;
+}
+
+.pickup , .destination{
+    display: block;
+    color: black;
+    background-color: azure;
+    border: none;
+    padding: 15px;
+}
+.request , .reschedule{
+    margin-top: 15px;
+    border: none;
+    padding: 15px;
+}
+.destination{
+    margin-top: 8px;
+}
+.request{
+    background-color: black;
+    color: white;
+    padding-right: 5px;
+}
+
+
+
+
+
+
+
+.friend-request-container{
+    margin-top: 30px;
+    display: inline-block;
+    font-family: 'roboto', sans-serif;
+    padding-bottom: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 15px;
+    
+
+}
+.requesters-image{
+    width: 200px;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.users-image{
+    width: 20px;
+    border-radius: 30px;
+    border: 2px solid black;
+    margin: 5px;
+    background-color: yellow;
+}
+.mutual{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 12px;
+    color: grey;
+    background-color: red;
+
+}
+.add-btn{
+    display: block;
+    margin-left: 5px;
+    background-color: rgb(84, 84, 214);
+    color: white;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 5px;
+}
+.name-par{
+    font-weight: 600;
+    margin-left: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.division{
+    margin-top: 50px;
+    height: 500px;
+    width: 900px;
+    background-color: lightcoral;
+    background-image: url(girl2.png);
+    background-position: contain;
+    background-repeat: no-repeat;
+
+}
+.fixed-topbar{
+    font-family: 'Roboto' , sans-serif;
+    display: flex;
+    justify-content: ;
+}
+/* .profile-details{
+    display: inline-block;
+} */
+.profile-details img{
+    width: 30px;
+    border-radius: 25px;
+    border: 2px solid black;
+    
+
+}
+.profile-details p{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 15px;
+    
+}
+.friend-btn, .msg-btn{
+padding-top: 8px;
+padding-bottom: 8px;
+padding-left: 10px;
+padding-right: 10px;
+font-weight:bold;
+font-size: 12px;
+background-color: rgb(63, 63, 228);
+color: white;
+border: none;
+}
+.msg-btn{
+
+}
