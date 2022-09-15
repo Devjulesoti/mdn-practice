@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>practice code</title>
+</head>
+<body>
+
+<button class="auto-btn">Start Machine</button>
+<p class="auto-text"></p>
+
+  <button id="buttonA">press me!</button>
+  <h3 id="headingA"></h3>
+
+  <script>
+
+    const btn = document.querySelector('.auto-btn');
+    const txt = document.querySelector('.auto-text');
+    btn.addEventListener('click', update);
+
+    function update() {
+      if (btn.textContent === 'Start Machine') {
+        txt.textContent = 'Machine is started!';
+        btn.textContent = 'Stop Machine';
+      }
+      else {
+        btn.textContent = 'Start Machine';
+        txt.textContent = 'Machine is stopped!';
+      }
+    }
+
+
+    const buttonA = document.querySelector("#buttonA");
+    const headingA = document.querySelector("#headingA");
+
+    buttonA.onclick = () => {
+      const name = prompt('What is your name?');
+      alert(`It's nice to meet you ${name}`);
+      headingA.textContent = `Hello ${name}!`;
+    }
+
+    let dog = {name : 'puop' , breed : 'caulcaesian' };
+    dog.breed;
+
+
+
+
+    const list = document.querySelector('.output ul');
+const totalBox = document.querySelector('.output p');
+let total = 0;
+list.innerHTML = '';
+totalBox.textContent = '';
+// number 1
+const products = ['Underpants:6.99'
+                'Socks:5.99'
+                'T-shirt:14.99'
+                'Trousers:31.99'
+                'Shoes:23.99';]
+                
+
+// number 2
+for (const product of products) {
+  const index = product.indexOf(':');
+  const itemName = product.slice(0, index);
+  const price = Number(product.slice(index, 1));
+  total += price;
+  itemText = `${itemName} -- ${price} `;
+}
+  let itemText = 0;
+
+  const listItem = document.createElement('li');
+  listItem.textContent = itemText;
+  list.appendChild(listItem);
+
+// number 6
+
+totalBox.textContent = 'Total: $' + total.toFixed(2);
+
+
+
+  </script>
+</body>
+</html>
